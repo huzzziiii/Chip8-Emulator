@@ -294,12 +294,12 @@ void Chip8::emulateCycle(){
         break;
             
         case 0x0029:        /* FX29: Sets I to the location of the sprite for the character in VX */
-                //*************TO BE DONE****************
+            I = V[(opcode & 0x0F00) >> 8] * 0x5;   // each sprite = 5 bytes
             pc += 2;
         break;
             
         case 0x0033:        /* FX33: Stores the BCD representation of VX in I */
-            //E.g: 0x32   == 0011 0010 == 050
+            //E.g: 0x32 == 0011 0010 == 050
             memory[I] = V[(opcode & 0x0F00) >> 8]/100;          //0
             memory[I+1] = ( V[(opcode & 0x0F00)>>8]/10 ) % 10;  //5
             memory[I+2] =  V[(opcode & 0x00F00)>>8] % 10;       //0
