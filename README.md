@@ -3,7 +3,7 @@
 Chip 8 is an interpreted programming language (more like a virtual machine), which was initially used on the Telmac 1800 8-bit microcomputers to make game programming easier.
 
 ## Memory
-- Interpreter occupies the ifrst 512 bytes of memory space. Thus, programs written for the original system begin at memory location 512 (0x200)
+- Interpreter occupies the first 512 bytes of memory space. Thus, programs written for the original system begin at memory location 512 (0x200)
 - Uppermost 256 Bytes are reserved for display refresh
 - 96 bytes below that are reserved for call stack, internal use, and other variables
 
@@ -18,7 +18,7 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 
 ## Opcodes
 
-| Oopcode | Description | Implemented |
+| Opcode | Description | Implemented |
 | ------- | ----------- | ----------- |
 | 00E0    | Clears the screen | :white_check_mark:|
 | 00EE    | Return from a subroutine | :white_check_mark:|
