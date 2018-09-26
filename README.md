@@ -54,7 +54,7 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 | FX15    | delay_timer = VX | :white_check_mark:|
 | FX18    | sound_timer = VX | :white_check_mark:|
 | FX1E    | I += VX | :white_check_mark:|
-| FX29    | Sets I to the location of the sprite for the character in VX | :x:|
+| FX29    | Sets I to the location of the sprite for the character in VX | :white_check_mark:|
 | FX33    | Stores the BCD representation of VX | :white_check_mark:|
 | FX55    | memory = VX (V0-VF) | :white_check_mark:|
 | FX65    | VX = memory | :white_check_mark:|
