@@ -17,7 +17,7 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 - Stack is used to store return addresses when subroutines are called.
 
 ## Opcodes
-There are 35 opcodes in total
+
 | Oopcode | Description | Implemented |
 | ------- | ----------- | ----------- |
 | 00E0    | Clears the screen | :white_check_mark:|
