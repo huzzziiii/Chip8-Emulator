@@ -30,7 +30,7 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 | 6XNN    | VX = NN | :white_check_mark:|
 | 7XNN    | Adds NN to VX | :white_check_mark:|
 | 8XY0    | VX = VY | :white_check_mark:|
-| 8XY1    | VX |= VY | :white_check_mark:|
+| 8XY1    | VX = VX OR VY | :white_check_mark:|
 | 8XY2    | VX &= VY | :white_check_mark:|
 | 8XY3    | VX ^= VY | :white_check_mark:|
 | 8XY4    | VX += VY | :white_check_mark:|
