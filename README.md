@@ -16,6 +16,10 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 - 16 levels of stack
 - Stack is used to store return addresses when subroutines are called.
 
+## Display
+- Chip-8 language uses a 64x32-pixel monochrome display
+- Chip-8 draws graphics on screen through the use of sprites. (Sprite: group of bytes which are a binary representation of the image)
+
 ## Opcodes
 
 | Opcode | Description | Implemented |
