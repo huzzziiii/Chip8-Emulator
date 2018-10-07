@@ -7,7 +7,7 @@ Chip 8 is an interpreted programming language (more like a virtual machine), whi
 - Uppermost 256 Bytes are reserved for display refresh
 - 96 bytes below that are reserved for call stack, internal use, and other variables
 
-![Chip8 Memory layout](https://github.com/huzaifaasif/2404/blob/master/UML.png)
+![Chip8 Memory layout](https://github.com/huzzziiii/Chip8-Emulator/blob/master/memory_layout.png)
 
 ## Registers
 - CHIP-8 has 16 8-bit dat aregisters namely V0-VF.
